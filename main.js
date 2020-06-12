@@ -6,6 +6,7 @@ const temp = document.getElementById("temp");
 const desc = document.getElementById("desc");
 const scale = document.getElementById("tempScale");
 const date = document.getElementById("date");
+const convert = document.getElementById("convert");
 
 const weather = {};
 const d = new Date();
@@ -39,7 +40,7 @@ document.getElementById("search").addEventListener("click", (event) => {
 });
 
 //checks if the user would like to convert the temperature scale
-document.getElementById("convert").addEventListener("click", conversion);
+convert.addEventListener("click", conversion);
 
 
 //gives different URLs for the API call depending on which button was earlier pressed
@@ -142,8 +143,10 @@ function submitted(){
 function conversion(){
     if (scale.innerHTML == "°F") {
         scale.innerHTML = "°C";
+        convert.innerHTML ="°F?";
     } else {
         scale.innerHTML = "°F";
+        convert.innerHTML ="°C?";
     }
     temp.innerHTML = checkType(weather.temp);
 }
