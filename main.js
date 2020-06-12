@@ -12,19 +12,19 @@ const weather = {};
 const d = new Date();
 
 weather.picIcons = {
-    "11d" : "/icons/storm.svg",
-    "09d" : "/icons/rain.svg",
-    "10d" : "/icons/rain.svg",
-    "13d" : "/icons/snow.svg",
-    "50d" : "/icons/wind.svg",
-    "01d" : "/icons/sun.svg",
-    "01n" : "/icons/moon.svg",
-    "02d" : "/icons/clouds.svg",
-    "03d" : "/icons/clouds.svg",
-    "04d" : "/icons/clouds.svg",
-    "02n" : "/icons/clouds.svg",
-    "03n" : "/icons/clouds.svg",
-    "04n" : "/icons/clouds.svg"
+    "11d" : "icons/storm.svg",
+    "09d" : "icons/rain.svg",
+    "10d" : "icons/rain.svg",
+    "13d" : "icons/snow.svg",
+    "50d" : "icons/wind.svg",
+    "01d" : "icons/sun.svg",
+    "01n" : "icons/moon.svg",
+    "02d" : "icons/clouds.svg",
+    "03d" : "icons/clouds.svg",
+    "04d" : "icons/clouds.svg",
+    "02n" : "icons/clouds.svg",
+    "03n" : "icons/clouds.svg",
+    "04n" : "icons/clouds.svg"
 }
 
 
