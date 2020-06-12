@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="header"><h1>Weather App</h1></div>
+        <div id="searchCont">
+            <form id="search">
+                <input type="text" id="searchbox" placeholder="type in a location">
+                <button type="submit" id="submitted" class="myButton">Submit</button>
+                <button id="currentLoc" class="myButton">Current Location</button>
+            </form>
+        </div>
+        <div id="error"></div>
+        <div id="spinner"> </div>
+        <div id="container">
+            <div id="location">default</div>
+            <div id="date">default</div>
+            <img src="" id="pic">
+            <div id="tempCont">
+             <div id="temp">default </div><span id="tempScale">°F</span><span id="convert">°C?</span>
+            </div>
+            <div id="desc">default</div>
+        </div>
+    </main>
+    <footer>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
